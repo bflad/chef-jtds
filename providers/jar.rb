@@ -31,6 +31,6 @@ action :create do
     creates "#{new_resource.path}/jtds-#{node['jtds']['version']}.jar"
     action :run
   end
-  
+
   new_resource.updated_by_last_action(true)
 end

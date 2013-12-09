@@ -18,6 +18,6 @@
 #
 
 default['jtds']['install_paths'] = []
-default['jtds']['version']  = "1.3.0"
+default['jtds']['version']  = '1.3.0'
 default['jtds']['url']      = "http://sourceforge.net/projects/jtds/files/jtds/#{node['jtds']['version']}/jtds-#{node['jtds']['version']}-dist.zip/download"
-default['jtds']['checksum'] = "bf01ada2729808fbb17ebe3aefad962520685cb8b1d189a2a66d6354ead0cc46"
+default['jtds']['checksum'] = 'bf01ada2729808fbb17ebe3aefad962520685cb8b1d189a2a66d6354ead0cc46'
